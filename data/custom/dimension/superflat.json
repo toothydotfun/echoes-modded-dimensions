@@ -7,21 +7,43 @@
       "features": true,
       "layers": [
         {
-          "block": "minecraft:dirt",
-          "height": 3
-        },
-        {
           "block": "minecraft:grass_block",
           "height": 1
+        },
+        {
+          "block": "minecraft:dirt",
+          "height": 3
         }
       ],
-      "structure_overrides": [
-        "minecraft:buried_treasures",
-        "minecraft:pillager_outposts",
-        "minecraft:ruined_portals",
-        "minecraft:villages",
-        "minecraft:swamp_huts"
-      ]
+      "structures": {
+        "structures": {
+          "minecraft:village": {
+            "spacing": 10,
+            "separation": 5,
+            "salt": 0
+          },
+          "minecraft:ruined_portal": {
+            "spacing": 10,
+            "separation": 5,
+            "salt": 0
+          },
+          "minecraft:swamp_hut": {
+            "spacing": 10,
+            "separation": 5,
+            "salt": 0
+          },
+          "minecraft:pillager_outpost": {
+            "spacing": 10,
+            "separation": 5,
+            "salt": 0
+          },
+          "minecraft:shipwreck": {
+            "spacing": 10,
+            "separation": 5,
+            "salt": 0
+          }
+        }
+      }
     }
   }
 }
