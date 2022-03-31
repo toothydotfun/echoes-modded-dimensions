@@ -1,5 +1,5 @@
 {
-  "type": "custom:the_void",
+  "type": "custom:generic",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
